@@ -14,7 +14,6 @@ In this repository, I will post only code that I implemented, and the experiment
 * CLFM: This model is from paper "Cross-Domain Recommendation via Cluster-Level Latent Factor Model" It learns about domain-specific rating pattern and domain-general rating pattern too.
 * EASE: This model is one of the SOTA linear model in recommendation systems. Closed-form solution is possible.
 * Multi-VAE: This model is VAE-based recommendation model. It uses softmax for learning with multinomial likelihood. Softmax helps items to compete with each others.
-    * (https://dl.acm.org/doi/epdf/10.1145/3178876.3186150)
 
 ## 2.0. weighted EASE - Motivation
 
