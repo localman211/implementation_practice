@@ -29,8 +29,8 @@ Before I experimented weighted EASE, I observed popularity-based weight was effe
 I experimented with weighted EASE. It is in file "./Recommendation/EASE.py". Its implementation detail is popularity-based confidence.
 
 Let C is confidence and P is popularity(item frequency),
-    P_ij = P_i + P_j
-    C_ij = 1 + alpha * log( 1 + P_ij )
+   * P_ij = P_i + P_j
+   * C_ij = 1 + alpha * log( 1 + P_ij )
 
 I input my weighted EASE model code, and I experimented on movielens 100k dataset. However, the experiment did not show meaningful improvements.
 
